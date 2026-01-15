@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oturum Aç - AstroBilgi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">Astro<span>Bilgi</span></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <div class="auth-buttons">
+        <a href="login.html" class="btn primary">Oturum Aç</a>
+        <a href="register.html" class="btn">Üye Ol</a>
+    </div>
+</header>
+
+<div class="container">
+    <section class="section">
+        <h2>Oturum Aç</h2>
+        <p class="section-desc">Bu sayfa demo amaçlıdır, gerçek giriş işlemi yapmaz.</p>
+
+        <div class="contact-box">
+            <form class="auth-form" id="loginForm">
+                <div class="auth-stack">
+                    <label for="login-email">E-posta</label>
+                    <input type="email" id="login-email" required>
+
+                    <label for="login-pass">Şifre</label>
+                    <input type="password" id="login-pass" required>
+
+                    <button type="submit" class="btn primary">Oturum Aç</button>
+                </div>
+            </form>
+
+            <div id="loginMsg" class="form-message" aria-live="polite"></div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    © 2025 AstroBilgi – Demo giriş ekranı.
+</footer>
+
+</body>
+</html>
